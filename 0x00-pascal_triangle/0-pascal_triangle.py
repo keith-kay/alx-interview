@@ -2,10 +2,11 @@
 """ Creates a function that returns a lits of lists
 of integers representing the Pascal's triangle of n """
 
+
 def pascal_triangle(n):
     """ creates a pascal triangle n:
-        number of rows 
-        return: Pascal's triangle """
+    number of rows
+    return: Pascal's triangle """
     new_pascal = []
 
     """ Assumes that n is an integer """
